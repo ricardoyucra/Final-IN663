@@ -8,6 +8,7 @@
 <body class="container p-8">
 <h1 class="text-3xl mb-4">Lista de Productos</h1>
 <a href="/crear-producto" class="bg-blue-500 text-white rounded-2xl px-6 py-2">Nuevo Producto</a>
+<a href="/productos/stock-alto" class="bg-green-500 text-white rounded-2xl px-6 py-2">Stock Alto</a>
 <div class="mt-4 border">
     <table class="table-auto">
         <thead>

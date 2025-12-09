@@ -28,6 +28,12 @@ class ProductoController extends Controller
         $producto->save();
         return to_route('productos.index');
     }
+
+    public function listar_filtro_stock()
+    {
+        $productos = Producto::where('stock', '>', 5)->get();
+        return view('productos', compact('productos'));
+    }
 }
 
 
